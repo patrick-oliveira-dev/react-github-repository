@@ -57,7 +57,6 @@ export default function Main() {
     
                 setRepositories([...repositories, data])
                 setNewRepo("")
-                console.log(repositories)
                 
             } catch (error) {
                 setAlert(true)
